@@ -1,30 +1,34 @@
-
-body{
+body {
     background-color: #000;
     font-family: var(--font-dm-sans);
 }
 
 .sidebar {
-    position: fixed; /*fixa o elemento na pagina */
+    position: fixed;
+    /*fixa o elemento na pagina */
     top: 0;
-    left: 0; /*esquerda*/
-    bottom: 0; /* baixo */
+    left: 0;
+    /*esquerda*/
+    bottom: 0;
+    /* baixo */
     padding: 10px;
-    width: 300px; /*largura*/
+    width: 300px;
+    /*largura*/
 }
 
-.sidebar__navigation{
+.sidebar__navigation {
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
-.logo img{
+.logo img {
     background-color: #121212;
-    width: 80px; /*largura*/
+    width: 80px;
+    /*largura*/
 }
 
-.sidebar__navigation .logo{
+.sidebar__navigation .logo {
     background: #121212;
     display: flex;
     border-radius: 8px;
@@ -32,19 +36,19 @@ body{
 }
 
 
-.sidebar nav ul{
+.sidebar nav ul {
     background-color: #121212;
     margin-top: 20px;
     padding: 0 20px 10px 20px;
     border-radius: 8px;
 }
 
-.sidebar ul li{
+.sidebar ul li {
     background-color: #121212;
     padding: 10px 0;
 }
 
-.sidebar nav ul li a{
+.sidebar nav ul li a {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
@@ -52,12 +56,13 @@ body{
 }
 
 /*sua biblioteca*/
-.library{
+.library {
     height: 60vh;
     background-color: #121212;
     border-radius: 8px;
     display: flex;
-    justify-content: space-between; /*junto sem espaco*/
+    justify-content: space-between;
+    /*junto sem espaco*/
     flex-direction: column;
     padding: 4px 8px;
     color: #b3b3b3;
@@ -66,13 +71,13 @@ body{
     margin-top: 10px;
 }
 
-.library .library__content{
+.library .library__content {
     background-color: #121212;
     display: flex;
     justify-content: space-between;
 }
 
-.library .library__button{
+.library .library__button {
     display: flex;
     margin-right: 10px;
     color: #b3b3b3;
@@ -86,19 +91,19 @@ body{
     padding: 20px 10px;
 }
 
-.library .library__button .fa{
+.library .library__button .fa {
     font-size: 20px;
     margin-right: 10px;
     font-weight: 300;
     padding-right: 8px;
 }
 
-.library .library__content .fa-plus{
+.library .library__content .fa-plus {
     margin: 24px 10px;
 }
 
 /*Crie sua primeira playlist*/
-.section-playlist{
+.section-playlist {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -112,27 +117,27 @@ body{
     border-radius: 10px;
 }
 
-.section-playlist .section-playlist__content{
+.section-playlist .section-playlist__content {
     display: flex;
     flex-direction: column;
 }
 
-.section-playlist__content .text{
+.section-playlist__content .text {
     padding-bottom: 14px;
     background-color: #242424;
     color: #fff;
 }
 
-.section-playlist__content .title{
+.section-playlist__content .title {
     font-weight: 700;
 }
 
-.section-playlist__content .subtitle{
+.section-playlist__content .subtitle {
     font-weight: 500;
     font-size: 12px;
 }
 
-.section-playlist__content .section-playlist__button{
+.section-playlist__content .section-playlist__button {
     display: flex;
     justify-content: center;
     background-color: #fff;
@@ -150,7 +155,7 @@ body{
 }
 
 /*Que tal seguir um podcast novo?*/
-.section-podcast{
+.section-podcast {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -164,27 +169,27 @@ body{
     border-radius: 10px;
 }
 
-.section-podcast .section-podcast__content{
+.section-podcast .section-podcast__content {
     display: flex;
     flex-direction: column;
 }
 
-.section-podcast__content .text{
+.section-podcast__content .text {
     padding-bottom: 14px;
     background-color: #242424;
     color: #fff;
 }
 
-.section-podcast__content .title{
+.section-podcast__content .title {
     font-weight: 700;
 }
 
-.section-podcast__content .subtitle{
+.section-podcast__content .subtitle {
     font-weight: 500;
     font-size: 12px;
 }
 
-.section-podcast__content .section-podcast__button{
+.section-podcast__content .section-podcast__button {
     display: flex;
     justify-content: center;
     background-color: #fff;
@@ -202,12 +207,12 @@ body{
 }
 
 /*cookies*/
-.sidebar .cookies{
+.sidebar .cookies {
     margin: 25px 20px;
     background-color: #121212;
 }
 
-.sidebar .cookies a{
+.sidebar .cookies a {
     color: #b3b3b3;
     background-color: #121212;
     font-weight: 500;
@@ -215,12 +220,12 @@ body{
     text-decoration: none;
 }
 
-.sidebar .cookies a:hover{
+.sidebar .cookies a:hover {
     text-decoration: underline;
 }
 
 /*portugues do brasil*/
-.languages .languages__button{
+.languages .languages__button {
     align-items: center;
     background-color: transparent;
     border: 1px solid #878787;
@@ -244,16 +249,18 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 .disclaimer-premium .text {
-   flex-shrink: 0;
+    flex-shrink: 0;
 }
+
 .disclaimer-premium .disclaimer-premium__title {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 12px;
     margin-bottom: 10px;
-    
+
 }
 
 .disclaimer-premium .disclaimer-premium__subtitle {
