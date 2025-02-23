@@ -1,4 +1,5 @@
 🎵 Spotify Clone - Frontend
+
 Este é um clone da interface do Spotify, desenvolvido com HTML, CSS e JavaScript, como parte do desafio da Imersão Frontend da Alura. O objetivo do projeto é praticar manipulação de APIs, estilização moderna e interatividade, criando uma experiência dinâmica e responsiva para explorar artistas e playlists.
 
 🚀 Funcionalidades:
