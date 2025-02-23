@@ -5,8 +5,11 @@ Este é um clone da interface do Spotify, desenvolvido com HTML, CSS e JavaScrip
 🚀 Funcionalidades:
 
 ✅ Busca de artistas com integração a uma API;
+
 ✅ Exibição dinâmica de artistas e playlists;
+
 ✅ Estilização responsiva baseada no design do Spotify;
+
 ✅ Animações e efeitos visuais para uma experiência mais interativa.
 
 🛠 Tecnologias utilizadas:
